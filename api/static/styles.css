@@ -1,0 +1,70 @@
+/* api/static/styles.css */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e1e;
+    color: #c5c8c6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #2e2e2e;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    border: 1px solid #555;
+}
+
+h1 {
+    text-align: center;
+    color: #66d9ef;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #c5c8c6;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #66d9ef;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5fb3c9;
+}
+
+pre {
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    padding: 10px;
+    overflow: auto;
+    font-family: monospace;
+    font-size: 14px;
+    color: #c5c8c6;
+}
+
+a {
+    color: #66d9ef;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
