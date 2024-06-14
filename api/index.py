@@ -1,12 +1,10 @@
-# api/index.py
-
 from flask import Flask, request, render_template, redirect, url_for
 import os
 import uuid
 
 app = Flask(__name__)
 
-SNIPPETS_DIR = 'api/snippets'
+SNIPPETS_DIR = os.getenv('SNIPPETS_DIR', '/tmp/snippets')
 
 if not os.path.exists(SNIPPETS_DIR):
     os.makedirs(SNIPPETS_DIR)

@@ -5,15 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkidNet - View Code</title>
+    <title>SkidNet - Skid Code</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Shared Code</h1>
+        <h1>Skid Code</h1>
         <pre><code>{{ code }}</code></pre>
         <a href="{{ url_for('index') }}">Share another snippet</a>
     </div>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

@@ -5,16 +5,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkidNet - Share Your Code</title>
+    <title>SkidNet - Share A Skid</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>SkidNet - Share Your Code</h1>
+        <h1>SkidNet - Share A Skid</h1>
         <form action="{{ url_for('submit') }}" method="POST">
             <textarea name="code" rows="10" cols="30" placeholder="Paste your code here..."></textarea>
             <br>
-            <button type="submit">Share</button>
+            <button type="submit" id="submit-button">Share</button>
         </form>
     </div>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
